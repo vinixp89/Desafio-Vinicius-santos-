@@ -1,0 +1,368 @@
+package testeanulo;
+
+public class original {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int [] aluno = new int [24];
+		int A1[] = {35,63,61};
+	    int A2[] = {64,97,36};
+	    int A3[] = {68,74,51};
+	    int A4 [] = {66,98,62};
+	    int A5 [] = {80,65,41};
+	    int A6[] = {83,68,77};
+	    int A7 [] = {38,53,80};
+	    int A8 []= {53,96,89};
+	    int A9 []= {45,61,68};
+	    int A10 []= {32,41,85};
+	    int A11[]= {4,66,39};
+	    int A12[]= {42,93,57};
+	    int A13[]= {59,87,89};
+	    int A14[]= {44,50,62};
+	    int A15[]= {83,92,32};
+	    int A16[]= {36,38,76};
+	    int A17[]= {41,52,87};
+	    int A18[]= {87,75,50};
+	    int A19[]= {36,46,48};
+	    int A20[]= {91,88,92};
+	    int A21[]= {38,90,98};
+	    int A22[]= {96,37,100};
+	    int A23[]= {73,71,75};
+	    int A24[]= {50,95,84};
+	    
+	    System.out.println("------------------------------------------------------------------------------------------------");
+System.out.println("-----------------------------BEM VINDO AO SISTEMA DE NOTAS:---------------------------------------------");
+	    
+	    calculo x = new calculo();{
+	    	
+	    	x.conta(A1);{
+	    	 System.out.println("_________ Aluno: Eduardo__________ " );
+	    	 System.out.println("                       " );
+	    	}
+	    	
+	    	x.conta(A2);
+	    	{
+		    	 System.out.println("_________Aluno: Murilo___________ " );
+		    	}
+	    	 System.out.println("                       " );
+	    	x.conta(A3);
+	    	{
+		    	 System.out.println("_________Aluno: Guilherme__________ " );
+		    	 System.out.println("                       " );
+		    	}
+	    	x.conta(A4);
+	    	{
+		    	 System.out.println("_________Aluno: Flavia __________ " );
+		    	 System.out.println("                       " );
+		    	}
+	    	x.conta(A5);
+	    	{
+		    	 System.out.println("________Aluno:_ Ruan__________ " );
+		    	 System.out.println("                       " );
+		    	}
+	    	x.conta(A6);
+	    	{
+		    	 System.out.println("________Aluno:_ Arnando__________ " );
+		    	 System.out.println("                       " );
+		    	}
+	    	x.conta(A7);
+	    	{
+		    	 System.out.println("________Aluno:_ Lucas__________ " );
+		    	 System.out.println("                       " );
+		    	}
+	    	x.conta(A8);
+	    	{
+		    	 System.out.println("________Aluno:_ Fabio__________ " );
+		    	 System.out.println("                       " );
+		    	}
+	    	x.conta(A9);
+	    	{
+		    	 System.out.println("________Aluno:_Alisson__________ " );
+		    	 System.out.println("                       " );
+		    	}
+	    	x.conta(A10);
+	    	{
+		    	 System.out.println("________Aluno:_ Felipe__________ " );
+		    	 System.out.println("                       " );
+		    	}
+	    	x.conta(A11);
+	    	{
+		    	 System.out.println("_______Aluno:__ Rachel__________ " );
+		    	 System.out.println("                       " );
+		    	}
+	    	x.conta(A12);
+	    	{
+		    	 System.out.println("________Aluno:_ Jouy__________ " );
+		    	 System.out.println("                       " );
+		    	}
+	    	x.conta(A13);
+	    	{
+		    	 System.out.println("________Aluno:_ François____________________ " );
+		    	 System.out.println("                       " );
+		    	}
+	    	x.conta(A14);
+	    	{
+		    	 System.out.println("_______Aluno:__ Dâmaris__________ " );
+		    	 
+		    	}
+	    	x.conta(A15);
+	    	{
+		    	 System.out.println("________Aluno:_ Leonardo__________ " );
+		    	 System.out.println("                       " );
+		    	}
+	    	x.conta(A16);
+	    	{
+		    	 System.out.println("________Aluno:_ Guilherme __________ " );
+		    	 System.out.println("                       " );
+		    	}
+	    	x.conta(A17);
+	    	{
+		    	 System.out.println("_______Aluno:__ Wesley__________ " );
+		    	 System.out.println("                       " );
+		    	}
+	    	x.conta(A18);
+	    	{
+		    	 System.out.println("________Aluno:_Yuri _________ " );
+		    	 System.out.println("                       " );
+		    	}
+	    	x.conta(A19);
+	    	{
+		    	 System.out.println("_______Aluno:__ Kira__________ " );
+		    	 System.out.println("                       " );
+		    	}
+	    	x.conta(A20);
+	    	{
+		    	 System.out.println("_______Aluno:__ Cleici__________ " );
+		    	 System.out.println("                       " );
+		    	}
+	    	x.conta(A21);
+	    	{
+		    	 System.out.println("_______Aluno:__ João Moacir__________ " );
+		    	 System.out.println("                       " );
+		    	}
+	    	x.conta(A22);
+	    	{
+		    	 System.out.println("________Aluno:_ Bruno __________ " );
+		    	 System.out.println("                       " );
+		    	}
+	    	x.conta(A23);
+	    	{
+		    	 System.out.println("________Aluno:_ Elcio__________ " );
+		    	 System.out.println("                       " );
+		    	 {
+			    	 System.out.println("                       " );
+			    	}
+		    	}
+	    	x.conta(A24);
+	    	{
+		    	 System.out.println("_________ Criscia__________ " );
+		    	 System.out.println("                       " );
+		    	}
+	    	x.faltas();
+	    	
+	    }
+	    
+	   
+	}
+
+	
+	
+	
+}
+
+
+package testeanulo;
+
+public class calculo {
+	int faltaA1 = 8;
+	int faltaA2 = 8;
+	int faltaA3 = 19;
+	int faltaA4 = 23;
+	int faltaA5 = 13;
+	int faltaA6 = 23;
+	int faltaA7 = 5;
+	int faltaA8 = 10;
+	int faltaA9 = 15;
+	int faltaA10 = 12;
+	int faltaA11 = 11;
+	int faltaA12 = 13;
+	int faltaA13 = 19;
+	int faltaA14 = 10;
+	int faltaA15 = 16;
+	int faltaA16 = 6;
+	int faltaA17 = 16;
+	int faltaA18 = 2;
+	int faltaA19 = 8;
+	int faltaA20 = 22;
+	int faltaA21 = 23;
+	int faltaA22 = 15;
+	int faltaA23 = 9;
+	int faltaA24 = 0;
+	
+
+
+	
+public void conta(int A[]){
+	 System.out.println("--------------------------------------------------------------------------");
+	 System.out.println(" as notas p1 ,p2 e p3 sao  :");
+	 for (int elemento2 : A  )  {
+		 System.out.println(elemento2);
+	 }
+	 int total3 =0;
+	for(int i=0;i<A.length;i++){
+		total3 += A[i];
+	}
+
+	System.out.println("total " +total3);
+	System.out.println("a media  e " +total3/3);
+	
+
+	 if((total3/3)<70) {
+		 System.out.println("Aprovado na media");}
+	 
+	 if((total3/3)>50) {
+		 System.out.println("exame final");}
+	 if((total3/3)<50) {
+		 System.out.println("Reprovado por nota");}
+	 
+
+	 if((total3/3)>70) {
+		 System.out.println("Aprovado ");}
+	 
+	 
+	  
+}
+
+public void faltas(){
+	System.out.println("_____________________________FALTAS____________________________________________");
+	System.out.println("Eduardo  :" + faltaA1*100/60);
+	if(faltaA1*100/60 >15){
+		System.out.println(" foi reprovado por falta");}
+	 System.out.println("-----------------------------------------------------------");
+	System.out.println("Murilo   :" + faltaA2*100/60);
+	if(faltaA2*100/60 >15){
+		System.out.println(" reprovado por falta");}
+	 System.out.println("-----------------------------------------------------------");
+
+	System.out.println("Guilherme   :" + faltaA3*100/60);
+	if(faltaA3*100/60 >15){
+		System.out.println("reprovado por falta");}
+	 System.out.println("-----------------------------------------------------------");
+
+	System.out.println("Flavia   :" + faltaA4*100/60);
+	if(faltaA4*100/60 >15){
+		System.out.println(" foi reprovado por falta");}
+	 System.out.println("-----------------------------------------------------------");
+
+	System.out.println("Ruan  :" + faltaA5*100/60);
+	if(faltaA5*100/60 >15){
+		System.out.println(" foi reprovado por falta");}
+	 System.out.println("-----------------------------------------------------------");
+
+	System.out.println("Arnando  :" + faltaA6*100/60);
+	if(faltaA6*100/60 >15){
+		System.out.println(" foi reprovado por falta");}
+	 System.out.println("-----------------------------------------------------------");
+
+	System.out.println("Lucas  :" + faltaA7*100/60);
+	if(faltaA7*100/60 >15){
+		System.out.println(" foi reprovado por falta");}
+	 System.out.println("-----------------------------------------------------------");
+
+	System.out.println("Fabio :" + faltaA8*100/60);
+	if(faltaA8*100/60 >15){
+		System.out.println(" foi reprovado por falta");}
+	 System.out.println("-----------------------------------------------------------");
+
+	System.out.println("Alisson  :" + faltaA9*100/60);
+	if(faltaA9*100/60 >15){
+		System.out.println(" foi reprovado por falta");}
+	 System.out.println("-----------------------------------------------------------");
+
+	System.out.println("Felipe   :" + faltaA10*100/60);
+	if(faltaA10*100/60 >15){
+		System.out.println(" foi reprovado por falta");}
+	 System.out.println("-----------------------------------------------------------");
+
+	System.out.println("Rachel   :" + faltaA11*100/60);
+	if(faltaA11*100/60 >15){
+		System.out.println(" foi reprovado por falta");}
+	 System.out.println("-----------------------------------------------------------");
+
+	System.out.println("Jouy  :" + faltaA12*100/60);
+	if(faltaA12*100/60 >15){
+		System.out.println(" foi reprovado por falta");}
+	 System.out.println("-----------------------------------------------------------");
+
+	System.out.println("François  :" + faltaA13*100/60);
+	if(faltaA13*100/60 >15){
+		System.out.println("     foi reprovado por falta");}
+	 System.out.println("-----------------------------------------------------------");
+
+	System.out.println("Dâmaris  :" + faltaA14*100/60);
+	if(faltaA14*100/60 >15){
+		System.out.println("     foi reprovado por falta");}
+	 System.out.println("-----------------------------------------------------------");
+
+	System.out.println("Leonardo  :" + faltaA15*100/60);
+	if(faltaA15*100/60 >15){
+		System.out.println("  foi reprovado por falta");}
+	 System.out.println("-----------------------------------------------------------");
+
+	System.out.println("Guilherme2 : " + faltaA16*100/60);
+	if(faltaA16*100/60 >15){
+		System.out.println("Eduardo foi reprovado por falta");}
+	 System.out.println("-----------------------------------------------------------");
+
+	System.out.println("Wesley  :" + faltaA17*100/60);
+	if(faltaA17*100/60 >15){
+		System.out.println(" foi reprovado por falta");}
+	 System.out.println("-----------------------------------------------------------");
+
+	System.out.println("Yuri  :" + faltaA18*100/60);
+	if(faltaA18*100/60 >15){
+		System.out.println(" foi reprovado por falta");}
+	 System.out.println("-----------------------------------------------------------");
+
+	System.out.println("Kira  :" + faltaA19*100/60);
+	if(faltaA19*100/60 >15){
+		System.out.println(" foi reprovado por falta");}
+	 System.out.println("-----------------------------------------------------------");
+
+	System.out.println("Cleici  :" + faltaA20*100/60);
+	if(faltaA20*100/60 >15){
+		System.out.println(" foi reprovado por falta");}
+	
+	 System.out.println("-----------------------------------------------------------");
+	System.out.println("João Moacir  :" + faltaA21*100/60);
+	if(faltaA21*100/60 >15){
+		System.out.println(" reprovado por falta");}
+	
+	 System.out.println("-----------------------------------------------------------");
+	System.out.println("Bruno  :" + faltaA22*100/60);
+	if(faltaA22*100/60 >15){
+		System.out.println(" foi reprovado por falta");}
+	 System.out.println("-----------------------------------------------------------");
+
+	System.out.println("Elcio  :" + faltaA23*100/60);
+	if(faltaA23*100/60 >15){
+		System.out.println(" foi reprovado por falta");}
+	 System.out.println("-----------------------------------------------------------");
+
+	System.out.println("Criscia  :" + faltaA24*100/60);
+	if(faltaA24*100/60 >15){
+		System.out.println(" foi reprovado por falta");}
+
+	
+
+
+	
+}
+}
+
+	 
+	
+	  
+	  
+
