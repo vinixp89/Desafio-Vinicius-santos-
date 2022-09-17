@@ -171,7 +171,6 @@ System.out.println("-----------------------------BEM VINDO AO SISTEMA DE NOTAS:-
 	
 }
 
-
 package testeanulo;
 
 public class calculo {
@@ -218,21 +217,28 @@ public void conta(int A[]){
 	System.out.println("a media  e " +total3/3);
 	
 
-	 if((total3/3)<70) {
-		 System.out.println("Aprovado na media");}
-	 
-	 if((total3/3)>50) {
+	 if((total3/3)>50 &&(total3/3) <=70) {
 		 System.out.println("exame final");}
-	 if((total3/3)<50) {
-		 System.out.println("Reprovado por nota");}
+	 
 	 
 
-	 if((total3/3)>70) {
+	 else if((total3/3)>70) {
 		 System.out.println("Aprovado ");}
-	 
-	 
+	
+
+	 else  if((total3/3)<50) {
+		 System.out.println("reprovado");
+		  
+	  
+	  } 
+	  
+	
 	  
 }
+
+      
+
+
 
 public void faltas(){
 	System.out.println("_____________________________FALTAS____________________________________________");
